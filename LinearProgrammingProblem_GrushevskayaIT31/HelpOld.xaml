@@ -1,0 +1,23 @@
+﻿<Window x:Class="LinearProgrammingProblem_GrushevskayaIT31.HelpOld"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Справка" Height="672.762" Width="552.538" WindowStartupLocation="CenterScreen">
+    <Grid>
+    <Grid x:Name="gridBase">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF605F5F" Offset="0"/>
+                    <GradientStop Color="#FF030303" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Label Content="Справка" HorizontalAlignment="Center" Height="70" Margin="31,17,31.4,0" VerticalAlignment="Top" Width="480" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="28" BorderBrush="Gray" BorderThickness="0,0,0,1" FontFamily="/LinearProgrammingProblem_GrushevskayaIT31;component/#Steamy"/>
+            <WrapPanel HorizontalAlignment="Left" Height="30" Margin="10,574,0,0" VerticalAlignment="Top" Width="522">
+                <Button Content="OK" IsDefault="True" Height="28" Width="82" Margin="427,0,0,0" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Padding="2,2,2,3" Click="Button_Click"/>
+            </WrapPanel>
+
+            <TextBox x:Name="textHelp" HorizontalAlignment="Left" Height="458" Margin="31,92,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="480" VerticalScrollBarVisibility="Auto">
+                
+            </TextBox>
+        </Grid>
+    </Grid>
+</Window>
